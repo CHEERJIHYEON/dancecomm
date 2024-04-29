@@ -8,7 +8,7 @@ function App() {
     // <div className="md:flex md:items-center md:justify-between">
     <div className="App">
       <div className="title">
-        <h2 className="titleDetails">춤 커뮤니티</h2>
+        <h2 className="titleDetails text-3xl font-bold ">춤 커뮤니티</h2>
       </div>
       <MapContainer />
       <SearchPlace />
