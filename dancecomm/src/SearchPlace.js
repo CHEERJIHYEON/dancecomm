@@ -17,7 +17,10 @@ const SearchPlace = () => {
 
   return (
     <>
-      <form className="inputForm" onSubmit={handleSubmit}>
+      <form
+        className="relative flex flex-1 first-letter:inputForm"
+        onSubmit={handleSubmit}
+      >
         <input
           placeholder="Search Place..."
           onChange={onChange}
